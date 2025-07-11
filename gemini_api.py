@@ -1,9 +1,9 @@
 import google.generativeai as genai
 
 # Setup
-genai.configure(api_key="AIzaSyAIIXEEJQNGpceapC8rahkjIo6ub_l2GSs")
+genai.configure(api_key="AIzaSyAghpmwB7XpUUl5o7H2Vpdlj0o4vFF4zr8")
 
-model = genai.GenerativeModel("gemini-pro")
+model = genai.GenerativeModel("gemini-2.0-flash")
 
 def generate_ai_feedback(resume_text):
     prompt = (
